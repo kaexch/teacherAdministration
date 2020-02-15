@@ -1,6 +1,8 @@
 Startup:
 npm run serve
 
+Note: need to run the mySQL.sql in your own local mySQL and also to change config inside knex-config.ts to point to the local mySQL instance
+
 Example (CURL):
 - curl --request POST \
     --url http://localhost:3000/api/register \
